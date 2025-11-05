@@ -130,10 +130,6 @@ Bachelor's degree in Computer Science with a focus on mobile development and sof
 - 🇵🇱 **Polish**: Upper-Intermediate
 - 🇩🇪 **German**: Basic
 
-## 📈 GitHub Activity
-
-![GitHub Streak](https://github-readme-streak-stats.demolab.com/?user=elsvjato&theme=transparent&hide_border=true&background=0D1117)
-
 ## 💪 Soft Skills
 
 Leadership, Teamwork, Problem-solving, Planning, Communication, Adaptability, Multilingual communication, Time management
