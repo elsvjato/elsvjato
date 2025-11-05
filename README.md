@@ -19,6 +19,7 @@ Motivated and versatile Computer Science graduate with experience in mobile deve
 ### Backend & Database
 - **Backend**: Supabase, PostgreSQL, REST API, Firebase
 - **Languages**: TypeScript, Python, Kotlin, Java, C, C++
+- **Python Frameworks**: aiogram, Pydantic Settings, asyncio
 - **Tools**: Git, Jira, Figma, Postman
 
 ### Additional Skills
