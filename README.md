@@ -12,7 +12,7 @@ Motivated and versatile Computer Science graduate with experience in mobile deve
 ## 🛠️ Tech Stack
 
 ### Mobile Development
-- **React Native**: TypeScript, React Navigation, Axios, Tailwind CSS
+- **React Native**: TypeScript, Expo Router, React Navigation, Tailwind CSS, Expo SDK
 - **Native Android**: Kotlin, Android Studio, Material Design, Firebase
 - **Architecture**: Component-based, Modular design, DRY principles
 
@@ -32,16 +32,34 @@ Pursuing a Master's degree in Computer Science while developing mobile applicati
 ## 📱 Featured Projects
 
 ### 💰 Debt Tracker App (Bachelor Thesis)
-**Tech**: React Native, Supabase, PostgreSQL, TypeScript
+**Tech**: React Native, Expo, TypeScript, Supabase, PostgreSQL, Expo Router, Tailwind CSS, i18next
 
-- **Description**: Full-stack mobile application for managing group expenses during trips
-- **Key Features**:
-  - Real-time UI with Supabase subscriptions and secure row-level access control
-  - Graph-based algorithm to optimize debt payments among users
-  - Multi-currency transaction support
-  - User groups and intelligent suggestions
-  - Modular, accessible, and responsive user interface
-- **Status**: Completed as Bachelor Thesis (2025)
+**Description**: Full-stack cross-platform mobile application for managing group expenses during trips and shared activities. Features real-time synchronization, intelligent debt optimization, and multi-currency support.
+
+**Key Features**:
+- **Real-time UI**: Supabase subscriptions with secure row-level access control (RLS policies)
+- **Graph-based Algorithm**: Greedy algorithm implementation that optimizes debt payments among users, minimizing the number of transactions required for settlement
+- **Multi-currency Support**: Transaction handling with multiple currencies in the same event, automatic currency-based balance calculations
+- **Event & Participant Management**: User groups with intelligent suggestions for expense splitting
+- **Internationalization**: Full i18n support (English, Ukrainian, Polish) with dynamic language switching
+- **Theme System**: Light/Dark mode with system preference detection
+- **Modular Architecture**: Component-based design with reusable UI components, React Context for state management
+- **Secure Authentication**: Supabase Auth with email verification, password reset, and session management
+- **Responsive UI**: Modern, accessible interface built with React Native and Tailwind CSS
+
+**Technical Highlights**:
+- Implemented optimal transaction algorithm that reduces settlement complexity from O(n²) to O(n log n)
+- Real-time data synchronization using Supabase Realtime subscriptions
+- Row-level security policies ensuring data isolation per user
+- Type-safe TypeScript implementation throughout the application
+- File-based routing with Expo Router for seamless navigation
+- Image handling and manipulation with Expo Image Picker
+
+**Repository**: [debt_tracker_app](https://github.com/elsvjato/debt_tracker_app)  
+**Status**: ✅ Completed as Bachelor Thesis (2025)  
+**Institution**: University of Łódź, Faculty of Mathematics and Computer Science
+
+---
 
 ### 🌸 Flower Bouquet Ordering App
 **Tech**: Android Studio, Kotlin, Firebase, Git
@@ -55,6 +73,8 @@ Pursuing a Master's degree in Computer Science while developing mobile applicati
 - **Methodology**: Scrum with sprint planning, stand-ups, and retrospectives
 - **Status**: Collaborative project
 
+---
+
 ### 🏠 Telegram Bot for Housing Search
 **Tech**: Python, Firebase, REST API
 
@@ -65,6 +85,8 @@ Pursuing a Master's degree in Computer Science while developing mobile applicati
   - User-friendly commands for filtering by price, location, and apartment size
   - Real-time notifications on new offers
 - **Status**: Personal project
+
+---
 
 ### 🔧 Arduino & Raspberry Pi Projects (Personal Hobby)
 **Tech**: Arduino, Raspberry Pi, IoT, Bluetooth/WiFi modules
