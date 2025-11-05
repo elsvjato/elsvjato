@@ -75,16 +75,32 @@ Pursuing a Master's degree in Computer Science while developing mobile applicati
 
 ---
 
-### 🏠 Telegram Bot for Housing Search
-**Tech**: Python, Firebase, REST API
+### ⛵ Travel Boat Telegram Bot
 
-- **Description**: Telegram bot to automate apartment and housing searches
-- **Key Features**:
-  - Integration with real estate website API for live rental listings
-  - Firebase database for storing user preferences and search history
-  - User-friendly commands for filtering by price, location, and apartment size
-  - Real-time notifications on new offers
-- **Status**: Personal project
+**Tech**: Python, aiogram, OpenWeatherMap API, Pydantic Settings, REST API
+
+**Description**: Telegram bot for planning trips and finding vacation destinations. Helps users discover nearby cities for travel with real-time weather information and intelligent city recommendations based on distance calculations.
+
+**Key Features**:
+- **Interactive Dialog Flow**: FSM-based state management for smooth user conversations
+- **Weather Integration**: Real-time weather data from OpenWeatherMap API (temperature, humidity, cloud cover, precipitation)
+- **Smart City Recommendations**: Distance-based algorithm using Haversine formula to find nearby cities for travel
+- **Geographic Calculations**: Accurate distance calculations between cities for optimal recommendations
+- **City Database**: Comprehensive database of cities with coordinates for travel planning
+- **User-Friendly Interface**: Emoji-rich messages and clear error handling
+- **Modular Architecture**: Clean router-based code structure with separation of concerns
+- **Media Handling**: Support for various media types with appropriate responses
+
+**Technical Highlights**:
+- Implemented Haversine formula for accurate geographic distance calculations
+- FSM (Finite State Machine) for managing conversation states and user flows
+- Greedy algorithm for finding nearest cities while ensuring diversity (minimum 50km apart)
+- Environment-based configuration using Pydantic Settings
+- Asynchronous programming with aiogram for efficient bot operations
+
+**Repository**: [telegram_bot](https://github.com/elsvjato/telegram_bot)  
+**Status**: ✅ Completed as University Project (2024)  
+**Institution**: University of Łódź, Faculty of Mathematics and Computer Science
 
 ---
 
