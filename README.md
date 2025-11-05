@@ -77,12 +77,6 @@ Pursuing a Master's degree in Computer Science while developing mobile applicati
   - Raspberry Pi automation tasks and lightweight servers
 - **Skills**: Electronics, circuit debugging, hardware–software integration
 
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=elsvjato&show_icons=true&theme=transparent&hide_border=true&bg_color=0D1117)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=elsvjato&layout=compact&theme=transparent&hide_border=true&bg_color=0D1117)
-
 ## 💼 Professional Experience
 
 ### Independent Group Travel Coordinator
